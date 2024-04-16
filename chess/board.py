@@ -12,9 +12,9 @@ def king (color,locaation,board,move,  Move one square in any direction. The kin
     pass
 
 #borad setup
-Place the board between the two players. Each player should have a white (or light-colored) square at the bottom-right corner.
-Arrange the pieces on the two rows closest to each player. The second row from each player is filled with pawns.
-The first row, from left to right, should be arranged as: Rook, Knight, Bishop, Queen, King, Bishop, Knight, and Rook. Remember, the queen goes on her own matching color (white queen on white, black queen on black).
+#Place the board between the two players. Each player should have a white (or light-colored) square at the bottom-right corner.
+#Arrange the pieces on the two rows closest to each player. The second row from each player is filled with pawns.
+#The first row, from left to right, should be arranged as: Rook, Knight, Bishop, Queen, King, Bishop, Knight, and Rook. Remember, the queen goes on her own matching color (white queen on white, black queen on black).
 
 
 def create_new_board():
@@ -26,3 +26,15 @@ def create_new_board():
             ((" "," "," "," "," "," "," "," ")),
             ((" "," "," "," "," "," "," "," ")),
             ((" "," "," "," "," "," "," "," "))
+    
+def print_board(board):
+     print(
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+     )
