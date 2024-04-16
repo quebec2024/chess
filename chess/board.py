@@ -26,6 +26,7 @@ def create_new_board():
             [" "," "," "," "," "," "," "," "],
             [" "," "," "," "," "," "," "," "],
             [" "," "," "," "," "," "," "," "]]
+    return board
    
 def print_board(board):
      print(
