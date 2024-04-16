@@ -18,23 +18,24 @@ def king (color,locaation,board,move,  Move one square in any direction. The kin
 
 
 def create_new_board():
-    board = ((" "," "," "," "," "," "," "," ")),
-            ((" "," "," "," "," "," "," "," ")),
-            ((" "," "," "," "," "," "," "," ")),
-            ((" "," "," "," "," "," "," "," ")),        
-            ((" "," "," "," "," "," "," "," ")),
-            ((" "," "," "," "," "," "," "," ")),
-            ((" "," "," "," "," "," "," "," ")),
-            ((" "," "," "," "," "," "," "," "))
-    
+    board = [[" "," "," "," "," "," "," "," "],
+            [" "," "," "," "," "," "," "," "],
+            [" "," "," "," "," "," "," "," "],
+            [" "," "," "," "," "," "," "," "],        
+            [" "," "," "," "," "," "," "," "],
+            [" "," "," "," "," "," "," "," "],
+            [" "," "," "," "," "," "," "," "],
+            [" "," "," "," "," "," "," "," "]]
+   
 def print_board(board):
      print(
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
-            (("board()()","board()()","board()()","board()()","board()()","board()()","board()()","board()()")),
+         f"""
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
+            {board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},{board[][]},
      )
