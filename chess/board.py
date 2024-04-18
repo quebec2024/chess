@@ -16,6 +16,8 @@ def king (color,locaation,board,move,  Move one square in any direction. The kin
 #Arrange the pieces on the two rows closest to each player. The second row from each player is filled with pawns.
 #The first row, from left to right, should be arranged as: Rook, Knight, Bishop, Queen, King, Bishop, Knight, and Rook. Remember, the queen goes on her own matching color (white queen on white, black queen on black).
 
+while TRUE:
+    print_board(board)
 
 def create_new_board():
     board = [[" "," "," "," "," "," "," "," "],
@@ -43,4 +45,4 @@ def print_board(board):
      )
 
 def reset_board(board):
-    pass
+    print
