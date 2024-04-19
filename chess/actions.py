@@ -1,14 +1,20 @@
-def check ( king , move, location, board):
+def verify_check (board):
     print("Check function")
 
-def   check_mate (screen, move , board):
+def verify_check_mate (board):
     print("check the mate")
 
-def change_of_character (color, location, board):
+def verify_change_of_piece(board):
+    pass
+
+def change_of_piece(new_piece, location, board):
     print("change the character")
 
-def castling (movement , board, location):
+def castling(movement, board, location):
     print("check castling")
+
+def move(start, end, board):
+    print("`Moving a piece")
     
 def verify_pawn_move(color,locaation,board,move,):
     print ("Move forward one square, but capture diagonally. On their first move, they can move forward two squares.")
@@ -28,40 +34,40 @@ def verify_queen_move(color,locaation,board,move):
 def verify_king_move(color,locaation,board,move): 
     print ("Move one square in any direction. The king can also perform a special move called castling, where the king and a rook are allowed to move at the same time")
 
-if check=True
-    print ("move your king")
-    elif print ("its your turn")
+# if check=True
+#     print ("move your king")
+#     elif print ("its your turn")
 
-if check_mate=True
-    print ("you lose the match")
-    elif print ("defend your area")
+# if check_mate=True
+#     print ("you lose the match")
+#     elif print ("defend your area")
 
-if check=True
-    print("change to queen")
-    elif print ("use queen moves , diagonal")
-if check=True
-    print ("the king moves two squares foward")
-    elif print ("tower moves to the otrher side of the king")
+# if check=True
+#     print("change to queen")
+#     elif print ("use queen moves , diagonal")
+# if check=True
+#     print ("the king moves two squares foward")
+#     elif print ("tower moves to the otrher side of the king")
 
-if check=True
-    print ("pawn moves forward")
-    elif print ("")
+# if check=True
+#     print ("pawn moves forward")
+#     elif print ("")
 
-if move[0] == 1 and color == "white":
-        print("Move forward")
-    elif move[0] == -1 and color == "black":
-        print("Move forward")
+# if move[0] == 1 and color == "white":
+#         print("Move forward")
+#     elif move[0] == -1 and color == "black":
+#         print("Move forward")
 
-if verify_bishop_move=True 
-    print ("You are moving your bishop")
-    elif print ("diagonal moves")
+# if verify_bishop_move=True 
+#     print ("You are moving your bishop")
+#     elif print ("diagonal moves")
 
-if veryfy_knights_move=True
-    print("move one knight")
-    elif print ("L moves")
+# if veryfy_knights_move=True
+#     print("move one knight")
+#     elif print ("L moves")
 
-if verify_rook_move=True
-    print (" displacemente of rook")
-    elif print("x movements")
+# if verify_rook_move=True
+#     print (" displacemente of rook")
+#     elif print("x movements")
     
     

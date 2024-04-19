@@ -1,16 +1,26 @@
-from hello import hello
+from actions import (
+    move, verify_bishop_move, verify_rook_move, verify_change_of_piece, verify_check,
+    verify_check_mate, verify_king_move, verify_pawn_move, verify_queen_move, veryfy_knights_move,
+    castling, change_of_piece,
+)
+from board import create_new_board, print_board
 
-with open ("READ.md", "r" ) as f:
+with open ("README.md", "r" ) as f:
     print(f.read())
 
+board = create_new_board()
 while True:
-    command = input("Enter a commaaand:")
-    if command == "hello":
-        hello()
+    print_board(board)
+    command = input("Enter a command:")
+    if command == "move":
+        move()
+    elif command == "castling":
+        castling()
     elif command == "q":
         exit()
     else:
         print("I did not understand this command.")
+
 
 #instructions
 #rules
