@@ -4,14 +4,14 @@
 #The first row, from left to right, should be arranged as: Rook, Knight, Bishop, Queen, King, Bishop, Knight, and Rook. Remember, the queen goes on her own matching color (white queen on white, black queen on black).
 
 def create_new_board():
-    board = [[" "," "," "," "," "," "," "," "],
-            [" "," "," "," "," "," "," "," "],
+    board = [["R","H","B","Q","K","B","H","R"],
+            ["P","P","P","P","P","P","P","P"],
             [" "," "," "," "," "," "," "," "],
             [" "," "," "," "," "," "," "," "],        
             [" "," "," "," "," "," "," "," "],
             [" "," "," "," "," "," "," "," "],
-            [" "," "," "," "," "," "," "," "],
-            [" "," "," "," "," "," "," "," "]]
+            ["p","p","p","p","p","p","p","p"],
+            ["r","h","b","k","q","b","h","r"]]
     return board
    
 def print_board(board):
