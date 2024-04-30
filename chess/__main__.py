@@ -8,18 +8,22 @@ from board import create_new_board, print_board
 with open ("README.md", "r" ) as f:
     print(f.read())
 
+
 board = create_new_board()
 while True:
     print_board(board)
     command = input("Enter a command:")
     if command == "move":
-        move()
+        start = input("Starting position:")
+        end = input("Ending position:")
+        move(start,end, board)
     elif command == "castling":
         castling()
     elif command == "q":
         exit()
     else:
         print("I did not understand this command.")
+        
 
 
 #instructions
@@ -39,3 +43,4 @@ while True:
 
 #ending the game
 #Besides checkmate, a game can end in a draw. Common ways to draw include stalemate (the player to move is not in check but has no legal move), agreement between players, or insufficient material (neither player has enough pieces to force a checkmate).
+
