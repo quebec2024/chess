@@ -9,17 +9,11 @@ def verify_change_of_piece(board):
 
 def change_of_piece(new_piece, location, board):
     print("change the character")
-
-def castling(movement, board, location):
-    print("check castling")
-
-def move(start, end, board):
-    print("`Moving a piece")
     
 def verify_pawn_move(color,locaation,board,move,):
     print ("Move forward one square, but capture diagonally. On their first move, they can move forward two squares.")
 
-def verify_bishop_move(color,locaation,board,move,):
+def verify_bishop_move(color,location,board,move,):
     print ("Move diagonally across any number of squares")
 
 def veryfy_knights_move(color,locaation,board,move):
