@@ -16,6 +16,7 @@ while True:
     if command == "move":
         start = input("Starting position:")
         end = input("Ending position:")
+        start = [int(start[0]), int(start[1])]
         move(start,end, board)
     elif command == "castling":
         castling()

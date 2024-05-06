@@ -18,32 +18,32 @@ def change_of_character():
    new_board[0,3] = queen
    assert board == new_board
 
-def verify_pawn_move()
+def verify_pawn_move():
     print(next_move) board, verification = create_new_board
     currrent_colum = move (board)
     assert currect_colum == 1
 
-def verify_bishop_move()
+def verify_bishop_move():
     print(next_move) board, verification = create_new_board
     current_colum = move (board)
     assert current_colum == 2
 
-def verify_knights_move()
+def verify_knights_move():
     print(next_move) board, verification = create_new_board
     current_colum = move (board)
     assert current_colum == 1
 
-   def verify_rook_move()
+def verify_rook_move():
     print(next_move) board, verification = create_new_board
     current_colum = move (board)
     assert current_colum == 0
 
-    def verify_queen_move()
+def verify_queen_move():
     print(next_move) board, verification = create_new_board
     current_colum = move (board)
     assert current_colum == 3
 
-    def verify_king_move()
+def verify_king_move():
     print(next_move) board, verification = create_new_board
     current_colum = move (board)
     assert current_colum == 4
