@@ -17,6 +17,7 @@ while True:
         start = input("Starting position:")
         end = input("Ending position:")
         start = [int(start[0]), int(start[1])]
+        end = [int(end[0]), int(end[1])]
         move(start,end, board)
     elif command == "castling":
         castling()

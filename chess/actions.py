@@ -15,10 +15,12 @@ def castling(movement, board, location):
 
 def move(start, end, board):
     start_row = start[0]
-    start_col = start[0]
+    start_col = start[1]
+    end_row = end[0]
+    end_col = end[1]
     board[end_row][end_col] = board[start_row][start_col]
     print("`Moving a piece")
-
+    
 # board[end_row[0]][end_col[0]] = board[start_row[0]][start_col[0]]
 
 def verify_pawn_move(color,locaation,board,move,):
