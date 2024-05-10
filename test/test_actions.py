@@ -20,16 +20,13 @@ def change_of_character():
 
 def test_verify_pawn_move():
     is_valid = verify_pawn_move([1,2],[1,3])
-    if verify_pawn_move([1,2],[1,3]):
-        print ("True, test passed")
-    else:
-        print ("False, test not passed")
+    assert is_valid == True
 
 
-   # assert is_valid == True
 
 def verify_pawn_move():
-    print(next_move) board, verification = create_new_board
+    print(next_move)
+    board, verification = create_new_board
     currrent_colum = move (board)
     assert currect_colum == 1
 
