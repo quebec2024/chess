@@ -26,7 +26,7 @@ while True:
     else:
         print("I did not understand this command.")
         
-
+#this action is the action that allows you to play the game, it puts the board on the terminal, ands allows you to enter the move action and allows you to tell the game the starting and eniding position of the piece you want to move. 
 
 #instructions
 #rules
@@ -45,4 +45,10 @@ while True:
 
 #ending the game
 #Besides checkmate, a game can end in a draw. Common ways to draw include stalemate (the player to move is not in check but has no legal move), agreement between players, or insufficient material (neither player has enough pieces to force a checkmate).
+
+#Instructions 
+#First click the play bottom to start the game and enter the terminal.
+#Then enter move in the terminal
+#Click on starting position and decide a piece that you want to move then put the position where your piece  is located ( remember that you only need to put the row and then the column without space or commas ex:11 *also remeber that when counting the rows and columns the firt of each one is 0 not 1, so you start counting from 0 ) 
+#Then click on ending position and enter the position where you want to move your piece
 

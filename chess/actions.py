@@ -14,7 +14,6 @@ def castling(movement, board, location):
     print("check castling")
 
 def move(start, end, board):
-    # 
     start_row = start[0]
     start_col = start[1]
     end_row = end[0]
@@ -23,6 +22,11 @@ def move(start, end, board):
     print("`Moving a piece")
     board[start_row][start_col] = " "
 # board[end_row[0]][end_col[0]] = board[start_row[0]][start_col[0]]
+
+#This function makes “move”to represent the movements in the board. “start” makes 
+#reepresents the starting position of the piece to being moving including 
+#the row and column coordinates. “end” represents the final destination of
+#the piece and end row and colum“Board” represents the list of pieces in the game board.
 
 def verify_pawn_move(color,locaation,board,move,):
     print ("Move forward one square, but capture diagonally. On their first move, they can move forward two squares.")
